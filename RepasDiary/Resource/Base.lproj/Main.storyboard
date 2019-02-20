@@ -293,10 +293,13 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="collectionView" destination="PvK-52-SgR" id="TE7-vp-5pJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZAn-So-7MQ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137" y="133"/>
+            <point key="canvasLocation" x="136.875" y="132.04225352112675"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mTX-rn-S7B">

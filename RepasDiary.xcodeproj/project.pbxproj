@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		22D6C7953AF84339D6357044 /* Pods_RepasDiary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B21EF6110F24CEF1382545C /* Pods_RepasDiary.framework */; };
+		8E66E8032212783600027B4B /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E66E8022212783600027B4B /* SettingViewController.swift */; };
+		8E93C9F8221CDE130071789A /* RepasData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E93C9F7221CDE130071789A /* RepasData.swift */; };
 		8EFE5E6022125F9A00A34010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE5E5F22125F9A00A34010 /* AppDelegate.swift */; };
 		8EFE5E6222125F9A00A34010 /* TodayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE5E6122125F9A00A34010 /* TodayListViewController.swift */; };
 		8EFE5E6522125F9A00A34010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFE5E6322125F9A00A34010 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 		5253E919338D08FE6A8490A9 /* Pods-RepasDiary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepasDiary.release.xcconfig"; path = "Pods/Target Support Files/Pods-RepasDiary/Pods-RepasDiary.release.xcconfig"; sourceTree = "<group>"; };
 		8B21EF6110F24CEF1382545C /* Pods_RepasDiary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RepasDiary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C28D33200AD74354BC3C6E2 /* Pods-RepasDiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepasDiary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RepasDiary/Pods-RepasDiary.debug.xcconfig"; sourceTree = "<group>"; };
+		8E66E8022212783600027B4B /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		8E93C9F7221CDE130071789A /* RepasData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepasData.swift; sourceTree = "<group>"; };
 		8EFE5E5C22125F9A00A34010 /* RepasDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepasDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFE5E5F22125F9A00A34010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EFE5E6122125F9A00A34010 /* TodayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayListViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				8EFE5E6122125F9A00A34010 /* TodayListViewController.swift */,
+				8E66E8022212783600027B4B /* SettingViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 		8E95136522126BF5006B0275 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8E93C9F7221CDE130071789A /* RepasData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -268,6 +274,8 @@
 			files = (
 				8EFE5E6222125F9A00A34010 /* TodayListViewController.swift in Sources */,
 				8EFE5E6022125F9A00A34010 /* AppDelegate.swift in Sources */,
+				8E66E8032212783600027B4B /* SettingViewController.swift in Sources */,
+				8E93C9F8221CDE130071789A /* RepasData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
