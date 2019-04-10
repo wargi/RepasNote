@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iG1-wW-kWx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iG1-wW-kWx">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="fm6-IJ-h0Q" kind="relationship" relationship="rootViewController" id="Cyr-4h-HDB"/>
+                        <segue destination="4tf-M0-Q1U" kind="relationship" relationship="rootViewController" id="lqd-vA-DkG"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mcI-zo-Xvs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -223,83 +223,57 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.36862745099999999" green="0.50980392159999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="KhM-ID-Kes"/>
                     </view>
-                    <navigationItem key="navigationItem" id="muT-kq-5jK"/>
+                    <navigationItem key="navigationItem" id="muT-kq-5jK">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="icon_week" id="bbv-Eo-6V4">
+                            <color key="tintColor" red="0.36862745099999999" green="0.50980392159999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="icon_today" id="dzG-uo-prf">
+                            <color key="tintColor" red="0.36862745099999999" green="0.50980392159999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AJG-Hu-Ggy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-774" y="133"/>
+            <point key="canvasLocation" x="-808" y="131"/>
         </scene>
-        <!--TodayListViewController-->
-        <scene sceneID="wbE-Zt-aH0">
+        <!--Repas Note-->
+        <scene sceneID="a4T-Zs-wna">
             <objects>
-                <viewController storyboardIdentifier="TodayListViewController" title="TodayListViewController" id="fm6-IJ-h0Q" customClass="TodayListViewController" customModule="RepasDiary" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="TXs-gn-3am">
+                <viewController id="4tf-M0-Q1U" customClass="MainViewController" customModule="RepasDiary" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U4k-fO-Icw">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mak-w2-Oov" userLabel="AddDiningView">
-                                <rect key="frame" x="114.5" y="507.5" width="91" height="35.5"/>
-                                <color key="backgroundColor" red="0.36862745099999999" green="0.50980392159999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="PvK-52-SgR">
-                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="44k-YH-5hI">
-                                    <size key="itemSize" width="50" height="50"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Icz-mW-wdv">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </view>
-                                    </collectionViewCell>
-                                </cells>
-                                <connections>
-                                    <outlet property="dataSource" destination="fm6-IJ-h0Q" id="si4-hd-mn2"/>
-                                    <outlet property="delegate" destination="fm6-IJ-h0Q" id="eoC-mF-vGz"/>
-                                </connections>
-                            </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3GP-YM-7TL">
+                                <rect key="frame" x="137" y="485" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="PvK-52-SgR" firstAttribute="top" secondItem="fUE-n0-MeU" secondAttribute="top" id="8Nf-te-ArI"/>
-                            <constraint firstItem="Mak-w2-Oov" firstAttribute="width" secondItem="TXs-gn-3am" secondAttribute="width" multiplier="1/3.5" id="DTT-bP-W3W"/>
-                            <constraint firstItem="Mak-w2-Oov" firstAttribute="centerX" secondItem="TXs-gn-3am" secondAttribute="centerX" id="G4k-u9-g6e"/>
-                            <constraint firstItem="PvK-52-SgR" firstAttribute="leading" secondItem="fUE-n0-MeU" secondAttribute="leading" id="Ugc-7O-hf4"/>
-                            <constraint firstItem="PvK-52-SgR" firstAttribute="trailing" secondItem="fUE-n0-MeU" secondAttribute="trailing" id="bYd-gL-KT5"/>
-                            <constraint firstAttribute="bottom" secondItem="PvK-52-SgR" secondAttribute="bottom" id="r6z-Iz-pSH"/>
-                            <constraint firstItem="fUE-n0-MeU" firstAttribute="bottom" secondItem="Mak-w2-Oov" secondAttribute="bottom" constant="25" id="sSR-MW-uTA"/>
-                            <constraint firstItem="Mak-w2-Oov" firstAttribute="height" secondItem="TXs-gn-3am" secondAttribute="height" multiplier="1/16" id="zRT-M9-C1Z"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="fUE-n0-MeU"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="kUr-zA-mL7"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="5JD-ke-VgY">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="VpY-EY-QsX">
+                    <navigationItem key="navigationItem" title="Repas Note" id="Y6q-XQ-BXJ">
+                        <barButtonItem key="leftBarButtonItem" image="icon_calendar" id="DWe-T2-r8P">
+                            <color key="tintColor" red="0.36862745099999999" green="0.50980392159999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
-                                <segue destination="oM5-2T-wwL" kind="push" id="46b-ZH-wTn"/>
+                                <segue destination="oM5-2T-wwL" kind="push" id="5Am-bJ-YW0"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="hrz-6Q-g66">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="icon_setting" id="11g-CM-Aqb">
+                            <color key="tintColor" red="0.36862745099999999" green="0.50980392159999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
-                                <segue destination="s9R-8e-01V" kind="push" id="GnX-ha-LFJ"/>
+                                <segue destination="s9R-8e-01V" kind="push" id="5gJ-lA-AL4"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <outlet property="collectionView" destination="PvK-52-SgR" id="TE7-vp-5pJ"/>
-                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZAn-So-7MQ" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BYZ-dV-1fn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.875" y="132.04225352112675"/>
+            <point key="canvasLocation" x="137" y="132"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mTX-rn-S7B">
@@ -350,4 +324,10 @@
             <point key="canvasLocation" x="1035" y="898.94366197183103"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon_calendar" width="50" height="50"/>
+        <image name="icon_setting" width="50" height="50"/>
+        <image name="icon_today" width="50" height="50"/>
+        <image name="icon_week" width="50" height="50"/>
+    </resources>
 </document>
