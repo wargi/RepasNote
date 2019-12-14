@@ -10,11 +10,13 @@
 		22D6C7953AF84339D6357044 /* Pods_RepasDiary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B21EF6110F24CEF1382545C /* Pods_RepasDiary.framework */; };
 		8E66E8032212783600027B4B /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E66E8022212783600027B4B /* SettingViewController.swift */; };
 		8E78348B225463FE0098C8FD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E78348A225463FE0098C8FD /* MainViewController.swift */; };
-		8E8D39CE2275174B000A680A /* NanumSquareRoundOTFEB.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8E8D39CA22743974000A680A /* NanumSquareRoundOTFEB.otf */; };
-		8E8D39CF2275174D000A680A /* NanumSquareRoundOTFL.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8E8D39CC22743974000A680A /* NanumSquareRoundOTFL.otf */; };
-		8E8D39D02275174F000A680A /* NanumSquareRoundOTFR.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8E8D39CD22743974000A680A /* NanumSquareRoundOTFR.otf */; };
-		8E8D39D122751752000A680A /* NanumSquareRoundOTFB.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8E8D39CB22743974000A680A /* NanumSquareRoundOTFB.otf */; };
+		8E8B16262275804A00D7FD19 /* NanumSquareRoundL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E8B16222275804A00D7FD19 /* NanumSquareRoundL.ttf */; };
+		8E8B16272275804A00D7FD19 /* NanumSquareRoundR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E8B16232275804A00D7FD19 /* NanumSquareRoundR.ttf */; };
+		8E8B16282275804A00D7FD19 /* NanumSquareRoundEB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E8B16242275804A00D7FD19 /* NanumSquareRoundEB.ttf */; };
+		8E8B16292275804A00D7FD19 /* NanumSquareRoundB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E8B16252275804A00D7FD19 /* NanumSquareRoundB.ttf */; };
 		8E93C9F8221CDE130071789A /* RepasData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E93C9F7221CDE130071789A /* RepasData.swift */; };
+		8EA0648A2275861200CA6960 /* DayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA064882275861200CA6960 /* DayCollectionViewCell.swift */; };
+		8EA0648B2275861200CA6960 /* DayCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EA064892275861200CA6960 /* DayCollectionViewCell.xib */; };
 		8EFE5E6022125F9A00A34010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE5E5F22125F9A00A34010 /* AppDelegate.swift */; };
 		8EFE5E6522125F9A00A34010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFE5E6322125F9A00A34010 /* Main.storyboard */; };
 		8EFE5E6722125F9B00A34010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFE5E6622125F9B00A34010 /* Assets.xcassets */; };
@@ -27,11 +29,13 @@
 		8C28D33200AD74354BC3C6E2 /* Pods-RepasDiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RepasDiary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RepasDiary/Pods-RepasDiary.debug.xcconfig"; sourceTree = "<group>"; };
 		8E66E8022212783600027B4B /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		8E78348A225463FE0098C8FD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		8E8D39CA22743974000A680A /* NanumSquareRoundOTFEB.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumSquareRoundOTFEB.otf; path = "../../../../../../../Volumes/나눔스퀘어라운드 맥용 OTF/NanumSquareRoundOTFEB.otf"; sourceTree = "<group>"; };
-		8E8D39CB22743974000A680A /* NanumSquareRoundOTFB.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumSquareRoundOTFB.otf; path = "../../../../../../../Volumes/나눔스퀘어라운드 맥용 OTF/NanumSquareRoundOTFB.otf"; sourceTree = "<group>"; };
-		8E8D39CC22743974000A680A /* NanumSquareRoundOTFL.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumSquareRoundOTFL.otf; path = "../../../../../../../Volumes/나눔스퀘어라운드 맥용 OTF/NanumSquareRoundOTFL.otf"; sourceTree = "<group>"; };
-		8E8D39CD22743974000A680A /* NanumSquareRoundOTFR.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumSquareRoundOTFR.otf; path = "../../../../../../../Volumes/나눔스퀘어라운드 맥용 OTF/NanumSquareRoundOTFR.otf"; sourceTree = "<group>"; };
+		8E8B16222275804A00D7FD19 /* NanumSquareRoundL.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumSquareRoundL.ttf; path = "../../../../../../../Volumes/나눔스퀘어라운드 맥용 TTF/NanumSquareRoundL.ttf"; sourceTree = "<group>"; };
+		8E8B16232275804A00D7FD19 /* NanumSquareRoundR.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumSquareRoundR.ttf; path = "../../../../../../../Volumes/나눔스퀘어라운드 맥용 TTF/NanumSquareRoundR.ttf"; sourceTree = "<group>"; };
+		8E8B16242275804A00D7FD19 /* NanumSquareRoundEB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumSquareRoundEB.ttf; path = "../../../../../../../Volumes/나눔스퀘어라운드 맥용 TTF/NanumSquareRoundEB.ttf"; sourceTree = "<group>"; };
+		8E8B16252275804A00D7FD19 /* NanumSquareRoundB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumSquareRoundB.ttf; path = "../../../../../../../Volumes/나눔스퀘어라운드 맥용 TTF/NanumSquareRoundB.ttf"; sourceTree = "<group>"; };
 		8E93C9F7221CDE130071789A /* RepasData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepasData.swift; sourceTree = "<group>"; };
+		8EA064882275861200CA6960 /* DayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCollectionViewCell.swift; sourceTree = "<group>"; };
+		8EA064892275861200CA6960 /* DayCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayCollectionViewCell.xib; sourceTree = "<group>"; };
 		8EFE5E5C22125F9A00A34010 /* RepasDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepasDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFE5E5F22125F9A00A34010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EFE5E6422125F9A00A34010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,10 +68,10 @@
 		8E8D39C922743967000A680A /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				8E8D39CB22743974000A680A /* NanumSquareRoundOTFB.otf */,
-				8E8D39CA22743974000A680A /* NanumSquareRoundOTFEB.otf */,
-				8E8D39CC22743974000A680A /* NanumSquareRoundOTFL.otf */,
-				8E8D39CD22743974000A680A /* NanumSquareRoundOTFR.otf */,
+				8E8B16252275804A00D7FD19 /* NanumSquareRoundB.ttf */,
+				8E8B16242275804A00D7FD19 /* NanumSquareRoundEB.ttf */,
+				8E8B16222275804A00D7FD19 /* NanumSquareRoundL.ttf */,
+				8E8B16232275804A00D7FD19 /* NanumSquareRoundR.ttf */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -94,6 +98,8 @@
 		8E95136322126BF2006B0275 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				8EA064882275861200CA6960 /* DayCollectionViewCell.swift */,
+				8EA064892275861200CA6960 /* DayCollectionViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -231,13 +237,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8D39D02275174F000A680A /* NanumSquareRoundOTFR.otf in Resources */,
-				8E8D39CE2275174B000A680A /* NanumSquareRoundOTFEB.otf in Resources */,
-				8E8D39D122751752000A680A /* NanumSquareRoundOTFB.otf in Resources */,
-				8E8D39CF2275174D000A680A /* NanumSquareRoundOTFL.otf in Resources */,
 				8EFE5E6A22125F9B00A34010 /* LaunchScreen.storyboard in Resources */,
+				8E8B16282275804A00D7FD19 /* NanumSquareRoundEB.ttf in Resources */,
+				8E8B16292275804A00D7FD19 /* NanumSquareRoundB.ttf in Resources */,
+				8E8B16262275804A00D7FD19 /* NanumSquareRoundL.ttf in Resources */,
+				8E8B16272275804A00D7FD19 /* NanumSquareRoundR.ttf in Resources */,
 				8EFE5E6722125F9B00A34010 /* Assets.xcassets in Resources */,
 				8EFE5E6522125F9A00A34010 /* Main.storyboard in Resources */,
+				8EA0648B2275861200CA6960 /* DayCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +307,7 @@
 				8EFE5E6022125F9A00A34010 /* AppDelegate.swift in Sources */,
 				8E66E8032212783600027B4B /* SettingViewController.swift in Sources */,
 				8E93C9F8221CDE130071789A /* RepasData.swift in Sources */,
+				8EA0648A2275861200CA6960 /* DayCollectionViewCell.swift in Sources */,
 				8E78348B225463FE0098C8FD /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

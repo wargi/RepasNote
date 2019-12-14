@@ -38,11 +38,11 @@ class MonthRecord: Object {
 // Day
 class DayRecord: Object {
    // Property
-   @objc dynamic var breakfast = ""
-   @objc dynamic var lunch = ""
-   @objc dynamic var dinner = ""
+   @objc dynamic var breakfast: [String] = []
+   @objc dynamic var lunch: [String] = []
+   @objc dynamic var dinner: [String] = []
    
-   @objc dynamic var water = 0
+   @objc dynamic var water: Double = 0.0
    
    @objc dynamic var intensity = ""
    @objc dynamic var workout = ""
